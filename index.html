@@ -1,346 +1,1100 @@
-﻿<!DOCTYPE HTML>
-<html>
-<head>
-<title>Home </title>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href='http//fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300' rel='stylesheet' type='text/css'>
-<link href='http//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<script type="text/javascript" src="js/jquery.min.js"></script>
-	 	<!---strat-slider---->
-	    <link rel="stylesheet" type="text/css" href="css/slider.css" />
-		<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
-		<script type="text/javascript" src="js/jquery.cslider.js"></script>
-			<script type="text/javascript">
-				$(function() {
-				
-					$('#da-slider').cslider({
-						autoplay	: true,
-						bgincrement	: 450
-					});
-				
-				});
-			</script>
-		<!---//strat-slider---->
-		 <!-- scroll -->
-		 <script type="text/javascript">
-			$(document).ready(function() {
-			
-				var defaults = {
-		  			containerID: 'toTop', // fading element id
-					containerHoverID: 'toTopHover', // fading element hover id
-					scrollSpeed: 1200,
-					easingType: 'linear' 
-		 		};
-				
-				
-				$().UItoTop({ easingType: 'easeOutQuart' });
-				
-			});
-		</script>
-		 <!-- //scroll -->
+<!DOCTYPE html>
+<html lang="en">
 
-</head>
-<body>
-	<!-- start slider -->
-<div class="slider_bg">
-			<!-- start header -->
-	<div class="wrap">
-			<div class="header">
-				<div class="logo">
-					<a href="index.html"><img src="images/logo.png" alt=""/></a>
-				</div>
-		<!-- start top-nav-->
-		<div class="h_right">
-			<ul class="menu">		
-				<li class="active"><a  href="#home">About</a></li>
-				<li><a href="#services" class="scroll">Process</a></li>
-				<li><a href="#portfolio" class="scroll">Project</a></li>
-				<li><a href="#about" class="scroll">Experience</a></li>
-				<li class="last"><a href="#contact"  class="scroll">Contact</a></li>
-			</ul>			
-			<!-- start smart_nav * -->
-	        <nav class="nav">
-	            <ul class="nav-list">
-	                <li class="nav-item"><a  href="#home">About</a></li>
-	                <li class="nav-item"><a href="#services" class="scroll">Process</a></li>
-	                <li class="nav-item"><a href="#portfolio" class="scroll">Projects</a></li>	            
-	                <li class="nav-item"><a href="#about" class="scroll">Experience</a></li>
-	                <li class="nav-item"><a href="#contact"  class="scroll">Contact</a></li>
-	                <div class="clear"></div>
-	            </ul>
-	        </nav>
-	        <script type="text/javascript" src="js/responsive.menu.js"></script>
-			<!-- end smart_nav * -->
-		</div>
-		<div class="clear"></div>
+  <head>
 
-			</div>
-			</div>
-			<!---//End-header--->
-<!-- start main -->
-				<!---start-da-slider----->
-				<div id="da-slider" class="da-slider">
-				<div class="da-slide">
-					<p>Hello! my name is Luis Lu</p>
-					<h2>IT'S NICE TO MEET YOU</h2>
-					<p class="a"><a href="#">TELL ME MORE</a></p>
-				</div>
-				<div class="da-slide">
-					<p>I am a forth year ucsd cognitive science student</p>
-					<h2>I love design</h2>
-					<p class="a"><a href="#">TELL ME MORE</a></p>
-				</div>
-				<div class="da-slide">
-					<p>I am also interested in data science</p>
-					<h2>I love data</h2>
-					<p class="a"><a href="#">TELL ME MORE</a></p>
-				</div>
-				<nav class="da-arrows">
-					<span class="da-arrows-prev"></span>
-					<span class="da-arrows-next"></span>
-				</nav>
-			</div>
- 			<!---//End-da-slider----->
- 		</div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-		  <div class="services" id="services">
-		  	<div class="wrap">
-		  		<h3>About myself</h3>
-		  		<p>fields that I love and study</p>
-				<div class="col_1_of_3 span_1_of_3">
-					<img src="images/service1.png" alt=""/>
-					<h4><a href="#">HCI</a></h4>
-					<p>I am a user experience designer and front end developer study at University of California, Sandiego. My major is human computer interaction where I learned how to design technologies that bring people joy, rather than frustration.</p>
-				</div>
-				<div class="col_1_of_3 span_1_of_3">
-					<img src="images/service2.png" alt=""/>
-					<h4><a href="#">Data Science</a></h4>
-					<p>I am interested in data analysis and I'v been plunged myself into my cognitive research labs on campus, from there, I learned my data analysis skills. I am also well-trained in writing python, R script during classses. Persuing a data science job is my career goal.</p>
-				</div>
-				<div class="col_1_of_3 span_1_of_3">
-					<img src="images/service3.png" alt=""/>
-					<h4><a href="#">Design</a></h4>
-					<p>I am very interested in designing and exploreing new and novelty design filed. I am interested in game/VR design. Looking for innovative and minimalistic solutions to complex problems is my passion</p>
-				</div>
-				 <div class="clear"></div>
-   		   </div>
-   		 </div>
- 		<div class="portfolio" id="portfolio">
-		  	<div class="wrap">
-		  		<h3>Project</h3>
-		  		<p>Below is my personal projects.</p>
-			<div class="col_1_of_3 span_1_of_3">
-					  <div class="view view-fourth">
-                        <img src="images/port1.jpg">
-	                    <div class="mask">
-	                        <h2>Teamup tool</h2>
-	                        <p>A tool that can help college students to form projects groups base on their personal skill and interest, improve class efficency and project integrity.</p>
-	                        <a href="https://yil479.wixsite.com/teamup2018" class="info">Read More</a>
-	                    </div>
-                	</div>
-					<h4><a href="https://yil479.wixsite.com/teamup2018">Teamup 2018</a></h4>
-					<p>software development</p>
-				</div>
-				<div class="col_1_of_3 span_1_of_3">
-					 <div class="view view-fourth">
-                        <img src="images/port2.jpg">
-	                    <div class="mask">
-	                        <h2>San Diego Traffic collison analysis</h2>
-	                        <p>A data analysis project written in python that generates heat map for all the collision points happened in the past 4 years in San Diego area, as well as detailed analysis on numerical data.</p>
-	                        <a href="https://github.com/yil479/SD-Car-Accident-Analysis" class="info">Read More</a>
-	                    </div>
-                	</div>
-					<h4><a href="https://github.com/yil479/SD-Car-Accident-Analysis">San Diego Traffic collison analysis</a></h4>
-					<p>Data Science Project</p>
-				</div>
-				<div class="col_1_of_3 span_1_of_3">
-					 <div class="view view-fourth">
-                        <img src="images/port3.jpg">
-	                    <div class="mask">
-	                        <h2>Musaic</h2>
-	                        <p>A wonderful music tool using Node.js that can help users to tract their friends favorite songs on Spotify as well as have a taste of them. </p>
-	                        <a href="https://github.com/yil479/musaic" class="info">Read More</a>
-	                    </div>
-                	</div>
-					<h4><a href="https://github.com/yil479/musaic">Musaic</a></h4>
-					<p>Website development</p>
-				</div>
-			  <div class="col_1_of_3 span_1_of_3">
-					 <div class="view view-fourth">
-                        <img src="images/port4.jpg">
-	                    <div class="mask">
-	                        <h2>KitchIn</h2>
-	                        <p>A website can help college student find homecook food with cheap price on campus.</p>
-	                        <a href="https://amberly-n.github.io/KitchIn-1/" class="info">Read More</a>
-	                    </div>
-                	</div>
-					<h4><a href="https://amberly-n.github.io/KitchIn-1/">KitchIn</a></h4>
-					<p>Website development</p>
-				</div>
-				<div class="col_1_of_3 span_1_of_3">
-					  <div class="view view-fourth">
-                        <img src="images/port5.jpg">
-	                    <div class="mask">
-	                        <h2>Design</h2>
-	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-	                        <a href="#" class="info">Read More</a>
-	                    </div>
-                	</div>
-					<h4><a href="#">Tree House Template</a></h4>
-					<p>Web Design</p>
-				</div>
-				<div class="col_1_of_3 span_1_of_3">
-					 <div class="view view-fourth">
-                        <img src="images/port6.jpg">
-	                    <div class="mask">
-	                        <h2>Branding</h2>
-	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-	                        <a href="#" class="info">Read More</a>
-	                    </div>
-                	</div>
-					<h4><a href="#">Burned Logo</a></h4>
-					<p>Branding</p>
-				</div>
-			<div class="clear"></div>								  						
-			</div>   		 
-   		 </div>
-   		 <!---start-about---->
-		  <div class="about" id="about">
-		  	<div class="wrap">
-		  		<h3>ABOUT</h3>
-		  		<p class="a">Proin iaculis purus consequat sem cure.</p>
-				<!---start-about-time-line---->
-				<div class="about-time-line">
-					<li>
-							<div class="cbp_tmicon img1"> </div>
-							<div class="cbp_tmlabel">
-								<h2>April 2017- June 2018</h2>
-								<h2>Research assistant at Cognitive development lab</h2>
-								<p>4.</p>
-							</div>
-					</li>
-					<li>
-							<div class="cbp_tmicon1 img2"> </div>
-							<div class="cbp_tmlabel cbp_tmlabel1">
-								<h2>June 2017 summer</h2>
-								<h2> Front end Intership at Beijing informational management Center. Positon for software engineer and front end developer</h2>
-								<p>1.</p>
-							</div>
-					</li><br />
-					<li>
-							<div class="cbp_tmicon2 img3"> </div>
-							<div class="cbp_tmlabel">
-								<h2>DECEMBER 2017</h2>
-								<h2>Cognitive Development lab website maintainess and renewr </h2>
-								<p>2.</p>
-							</div>
-					</li>
-					<li>
-							<div class="cbp_tmicon3 img4"> </div>
-							<div class="cbp_tmlabel cbp_tmlabel1">
-								<h2>June 2018</h2>
-								<h2>plainsledgerart.org website renewer, moving from old platform to a new plateform with newest functionality</h2>
-								<p>3.</p>
-							</div>
-					</li>
-					<li>
-							<div class="cbp_tmicon4 img5"> </div>
-					</li>
-					<div class="clear"> </div>
-   		   </div>
-   		 </div>    
-   		</div>
- 			<!---//end-about---->     
+    <title></title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom fonts for this theme 
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>-->
+
+    <!-- Plugin CSS -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="vendor/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
+    <link href="vendor/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="vendor/animate.css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="device-mockups/device-mockups.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this theme -->
+    <!-- Uncomment the color scheme you want to use! Red is chosen by default! -->
+    <!-- <link href="css/vitality-red.css" rel="stylesheet" type="text/css"> -->
+    <link href="css/vitality-aqua.css" rel="stylesheet" type="text/css">
+    <!-- <link href="css/vitality-blue.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/vitality-green.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/vitality-orange.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/vitality-pink.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/vitality-purple.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/vitality-tan.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/vitality-turquoise.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          LL
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+          Menu
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#work">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#process">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Masthead -->
+    <header class="masthead" style="background-image: url('img/squiggle.jpg'); background-position: center; background-size: 100% 110%; background-repeat: no-repeat;">
+      <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-sm-6 my-auto text-center text-black">
+            </div>
+          <div class="col-sm-6 my-auto text-center text-black">
+          <!--<img class="masthead-img img-fluid mb-3" src="img/creative/profile.svg" alt="">-->
            
-				<!---strat-image-cursuals---->
-                  <div class="t-clients">
-                  	<div class="wrap"> 											 
-							
-							<div class="clear"> </div>      
-						  <!---strat-image-cursuals---->
-								<script type="text/javascript" src="js/jquery.flexisel.js"></script>
-								<!---End-image-cursuals---->
-								<script type="text/javascript">
-								$(window).load(function() {
-								    $(".flexiselDemo3").flexisel({
-								        visibleItems: 5,
-								        animationSpeed: 1000,
-								        autoPlay: true,
-								        autoPlaySpeed: 3000,            
-								        pauseOnHover: true,
-								        enableResponsiveBreakpoints: true,
-								        responsiveBreakpoints: { 
-								            portrait: { 
-								                changePoint:480,
-								                visibleItems: 1
-								            }, 
-								            landscape: { 
-								                changePoint:640,
-								                visibleItems: 2
-								            },
-								            tablet: { 
-								                changePoint:768,
-								                visibleItems: 3
-								            }
-								        }
-								    });
-								});
-								</script>
-						<!---->
-				  <!---->
-				  </div>				
-			</div>
-             <div class="contact" id="contact">
-		  	<div class="wrap">
-		  		<h3>CONTACT me</h3>
-		  		<p class="a">leave your email below</p>
-				<div class="form">
-				     <div class="form-text">
-					    <input type="text" class="textbox" value="Your Name*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-						<input type="text" class="textbox" value="Your E-mail*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}">
-						<input name="Website" type="text" class="Subject" value="Website" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Website';}">
-					</div>
-						 <textarea placeholder="Your Message*"></textarea>
-						 <div class="clear"> </div>
-						 <input type="submit" value="SEND MESSAGE">					 
-				 </div>
-   		   </div>
-   		 </div>
-         <!----start-bottom-footer---->
-				<div class="bottom-footer">
-					<div class="wrap"> 
-						<div class="bottom-footer-left">
-							<p>@Luis Lu 2018</p>
-						</div>
-						<div class="bottom-footer-center">
-							<ul class="bottom-social-icons">
-								<li><a class="bottom-twitter" href="#"> </a></li>
-								<li><a class="bottom-facebook" href="#"> </a></li>
-								<li><a class="bottom-pin" href="#"> </a></li>
-								<li><a class="bottom-google" href="#"> </a></li>
-								<div class="clear"> </div>
-							</ul>
-						</div>			  
-						<div class="clear"> </div>
-					</div>
-				</div>
-				<!----//End-bottom-footer---->
- <!-- scroll_top_btn -->
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <a class="btn js-scroll-trigger" href="#about">
+          <i class="fa fa-angle-down fa-fw"></i>
+        </a>
+      </div>
+    </header>
 
-		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+    <!-- About Section -->
+    <section class="page-section" id="about">
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="img-fluid rounded my-5" src="img/mypic.png" style="width:23em; height:33em; margin-left: 8em;" alt="">
+          </div>
+          <div class="col-lg-6 text-center my-auto">
+            <h1>print("I am Luis")</h1>
+            <hr class="colored">
+            <p>I am an undergraudate student majoring in cognitive science specialized in HCI and computation. My pursuit is to apply data science and statistical analysis methods to solve real-life problems in order to protect and enhance people's quality of life.I want to take a human-centered approach to data science and understand how we can better enable people to explore and make sense of large datasets. When I am free, I like benching, drinking tea and drawing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
-</body>
+  
+    <section class="page-section bg-light" id="work">
+      <div class="container text-center wow fadeIn">
+        <h2>Projects</h2>
+        <hr class="colored">
+        <p>Try not to become a man of success but rather try to become a man of value. ( A. Einstein)</p>
+      </div>
+    </section>
+
+    <!-- Portfolio Carousel -->
+    <div class="portfolio-carousel wow fadeIn owl-carousel owl-theme">
+
+     <!--Quick care -->
+        <div class="item" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('img/musaic-bc.png');">
+        <div class="container-fluid">
+          <div class="row h-100">
+            <div class="col-md-7 my-auto d-none d-sm-block">
+              <div class="device-container">
+                <div class="device-mockup macbook portrait black" style="height: 20px">
+                  <div class="device">
+                    <div class="screen">
+                      <img class="img-fluid" src="img/musaic.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <div class="col-md-5 my-auto">
+              <div class="project-details">
+                <span class="project-name">Music sharing Webapp:Musaic</span>
+                <span class="project-description">Product Designer</span>
+                <hr class="colored">
+                <a href="#portfolioModal2" data-toggle="modal" class="btn btn-primary">View Details
+                  <i class="fa fa-long-arrow-right fa-fw"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+        <!-- Life Skills Minigame -->
+     <div class="item" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('img/SDpollution.jpg');">
+        <div class="container-fluid">
+          <div class="row h-100">
+            <div class="col-md-7 my-auto d-none d-sm-block">
+              <div class="device-container">
+                <div class="device-mockup macbook portrait black">
+                  <div class="device">
+                    <div class="screen">
+                      <img class="img-fluid" src="img/sdp0.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 my-auto">
+              <div class="project-details">
+                <span class="project-name">San Diego air pollution</span>
+                <span class="project-description">data analysis and modeling</span>
+                <hr class="colored">
+                <a href="#portfolioModal1" data-toggle="modal" class="btn btn-primary">View Details
+                  <i class="fa fa-long-arrow-right fa-fw"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+        
+        
+        <div class="item" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('img/SD_1.png');">
+        <div class="container-fluid">
+          <div class="row h-100">
+            <div class="col-md-7 my-auto d-none d-sm-block">
+              <div class="device-container">
+                <div class="device-mockup macbook portrait black">
+                  <div class="device">
+                    <div class="screen">
+                      <img class="img-fluid" src="img/SD2.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 my-auto">
+              <div class="project-details">
+                <span class="project-name">DataScience: San Diego Traffic collision</span>
+                <span class="project-description">Data science in practice</span>
+                <hr class="colored">
+                <a href="#portfolioModal4" data-toggle="modal" class="btn btn-primary">View Details
+                  <i class="fa fa-long-arrow-right fa-fw"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   
+
+      <!-- Portfolio Carousel Item 3 -->
+   <div class="item" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('img/teamup1.png');">
+        <div class="container-fluid">
+          <div class="row h-100">
+            <div class="col-md-7 my-auto d-none d-sm-block">
+              <div class="device-container">
+                <div class="device-mockup macbook portrait black">
+                  <div class="device">
+                    <div class="screen">
+                      <img class="img-fluid" src="img/teamup.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 my-auto">
+              <div class="project-details">
+                <span class="project-name">TeamUp2018</span>
+                <span class="project-description">UI/UX designer/backend developer</span>
+                <hr class="colored">
+                <a href="https://yil479.wixsite.com/teamup2018" class="btn btn-primary">View Details
+                  <i class="fa fa-long-arrow-right fa-fw"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+   </div>
+      
+      <section class="page-section" id="services">
+  <div class="container">
+    <div class="page-header text-center">
+        <h1 id="timeline">Experience</h1>
+    </div>
+    <ul class="timeline">
+        <li>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Capital-Information Management Center (Beijing)</h4>
+                <h6>Software Engineer Intern</h6>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2016/06-2016/09</small></p>
+            </div>
+            <div class="timeline-body">
+                <p>In 2016 summer, I joined Beijing volunteer system team and developed web and Android apps for city public health system, public insurance system & city volunteer system . I also helped design, define and launch advanced mobile apps for Beijing Public Services to provide more convenient and advanced payment method.</p> 
+<!--<a href="http://www.sandiegouniontribune.com/news/science/sd-me-ghostdriver-ucsd-20170403-story.html" target="_blank">here!</a>-->
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+                <h4 class="timeline-title">UCSD Data Science Institution (UCSD)</h4> 
+                <h6>Undergraduate instructor assistant</h6>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2018/09-Present                                         </small></p>
+            </div>
+            <div class="timeline-body">
+                <p> I helped design and tutored a entirely new python programming courses(COGS18), I tooked the responsibility to co-create and test programming assignments, lead weekly lab sessions and teach students theories and hands-on experience. Here is our course website <a href="cogs18.github.io" target="_blank">here!</a>
+</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Plainsledgerart.ucsd.edu</h4>
+                <h6>Fullstack developer</h6>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2018/06- present </small></p>
+            </div>
+            <div class="timeline-body">
+                <p>I overhauled and modernized a digitization of the unique genre of Plains drawing website of 1000s of ledger art drawings and made it available for researchers. 
+                Working as a fullstack developer, I built the new version of PILA website from scratch and launched it on UCSD server <a href="http://plainsledgerart.ucsd.edu" target="_blank">here</a>.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+            <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Cognitive Development lab (UCSD)</h4>
+                <h6>Undergraduate Research Assistant</h6>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2017/04-2018/04 </small></p>
+            </div>
+            <div class="timeline-body">
+                <p>As an undergraduate research assistant, I worked on research projects related to human cognitive development and tested brain activity through EEG. Our projects involved exploring the relationship between early mother-infant interaction and infant cognitive development using tools such as MATLAB and ELAN.
+    I proctored several SONA experiment sections on local citizens and school students. I also helped rebuild our lab website, <a href="https://cogdevlab.ucsd.edu/" target="_blank">You can find it here</a> 
+• 
+</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">KitchIn, CA</h4>
+                <h6>Product Designer</h6>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2016/12-2017/02</small></p>
+            </div>
+            <div class="timeline-body">
+              <p> During my second year winter quarter, I led a 3-member team and created an interactive online platform for college students(who suffering from expenseive food or wasted fodd) to share or sell cooked food. This is my first software product and intrigued my interest in product designing, I worked on both front-end and back-end development and contributed to UI design and usability analysis. <a href="https://amberly-n.github.io/KitchIn-1/" target="_blank">You can find it here</a>
+</p>
+            </div>
+          </div>
+        </li>
+        
+        <li class="timeline-inverted">
+            <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Computational Cognition lab (UCSD)</h4>
+                <h6>Research Assistant</h6>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2018/06-2018/09</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>I worked on designing and testing lab experiment software and prepared experiment materials using Python.
+ I also proctored SONA experiment sections on over one hundred school students 
+ and cleaned the experiment data, then conducted ANOVA and Markov chain Monte Carlo randomization test for data analysis using R. <a href="http://www.evullab.org/" target="_blank">You can find it here</a>
+</p>
+              </div>
+              </div>
+        </li>
+        <!--<li>
+          <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+            </div>
+          </div>
+        </li>-->
+    </ul>
+</div>
+      </section>
+      
+      <section class="page-section services" id="process">
+      <div class="container">
+        <div class="text-center wow fadeIn">
+          <h2>My Skills</h2>
+          <hr class="colored">
+        </div>
+        <div class="row mt-4">
+          <!-- Service Item 1 -->
+          <div class="col-lg-4 wow fadeIn" data-wow-delay=".2s">
+            <div class="media">
+              <div class="pull-left">
+                <i class="fa fa-clipboard rounded-circle"></i>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Programming language</h3>
+                <ul>
+                  <li>Python, R</li>
+                  <li>Java, C#</li>
+                  <li>Javascript</li>
+                  <li>PHP7</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Service Item 2 -->
+          <div class="col-lg-4 wow fadeIn" data-wow-delay=".4s">
+            <div class="media">
+              <div class="pull-left">
+                <i class="fa fa-pencil rounded-circle"></i>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Frenquently Used Tools</h3>
+                <ul>
+                  <li>Jupyter Notebook</li>
+                  <li>R studio, MATLAB</li>
+                  <li>Apache Hadoop</li>
+                  <li>Adobe Photoshop</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Service Item 3 -->
+          <div class="col-lg-4 wow fadeIn" data-wow-delay=".6s">
+            <div class="media">
+              <div class="pull-left">
+                <i class="fa fa-rocket rounded-circle"></i>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">My Specialization</h3>
+                <ul>
+                  <li>Tea drinking</li>
+                  <li>Chest workout</li>
+                  <li>Data visualization</li>
+                  <li>Web programming</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section class="page-section bg-light" id="gallery">
+      <div class="container text-center wow fadeIn">
+        <h2>Gallery</h2>
+        <hr class="colored">
+        <div class="controls mt-3">
+          <button type="button" class="control btn btn-secondary btn-sm mx-2 mb-4" data-mixitup-control data-filter="all">All</button>
+          <button type="button" class="control btn btn-secondary btn-sm mx-2 mb-4" data-mixitup-control data-filter=".identity">Service Design</button>
+          <button type="button" class="control btn btn-secondary btn-sm mx-2 mb-4" data-mixitup-control data-filter=".graphic">Typography</button>
+          <!--<button type="button" class="control btn btn-secondary btn-sm mx-2 mb-4" data-mixitup-control data-filter=".web">User Research</button>-->
+          <!--<button type="button" class="control btn btn-secondary btn-sm mx-2 mb-4" data-mixitup-control data-filter=".photos">Photos</button>-->
+        </div>
+        <div class="portfolio-grid clearfix" id="portfolioList">
+
+         <!-- quick care poster -->
+          <div class="mix identity" href="img/QC.png" title="Quick Care: care package network">
+            <div class="portfolio-wrapper">
+              <img src="img/QC.png" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Quick Care, 2018</a>
+                  <span class="text-category">Startup Studio, UCSD</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+            
+             <!-- dangerous breed typography -->
+          <div class="mix graphic" href="img/dangerous_breed.png" title="Typographic Exploration">
+            <div class="portfolio-wrapper">
+              <img src="img/dangerous_breed.png" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Typographic exploration, 2018</a>
+                  <span class="text-category">Visual Design, UCSD</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+            
+             <!-- norman 1 -->
+          <div class="mix graphic" href="img/norman-1.png" title="Type & Color: Call to Action">
+            <div class="portfolio-wrapper">
+              <img src="img/norman-1.png" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Typographic exploration, 2018</a>
+                  <span class="text-category">Interaction Design Studio, CMU</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+            
+             <!-- norman 2 -->
+          <div class="mix graphic" href="img/norman-2.png" title="Type & Color: Call to Action">
+            <div class="portfolio-wrapper">
+              <img src="img/norman-2.png" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Typographic exploration, 2018</a>
+                  <span class="text-category">Interaction Design Studio, CMU</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+            
+            <!-- Avant garde 1 -->
+          <div class="mix graphic" href="img/design100-1.png" title="Typography: Call to Action">
+            <div class="portfolio-wrapper">
+              <img src="img/design100-1.png" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Typographic exploration, 2018</a>
+                  <span class="text-category">Visual Design, UCSD</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+            
+        
+            
+            <!-- Avant garde 2 -->
+          <div class="mix graphic" href="img/design100-2.png" title="Typography: Call to Action">
+            <div class="portfolio-wrapper">
+              <img src="img/design100-2.png" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Typographic exploration, 2018</a>
+                  <span class="text-category">Visual Design, UCSD</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+            
+         <!-- Grid Item 1 -->
+          <div class="mix identity" href="img/RICK.png" title="Client Name">
+            <div class="portfolio-wrapper">
+              <img src="img/RICK.png" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Civic Design, 2017</a>
+                  <span class="text-category">D4SD: Design for San Diego</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+            
+            
+            <!-- Grid Item 8 -->
+          <!--<div class="mix web" href="img/VTime_BMC.png" title="VTime Goggles: Business Model Canvas">
+            <div class="portfolio-wrapper">
+              <img src="img/goggles.png" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">VTime Swimming Goggles, 2016</a>
+                  <span class="text-category">Business Model Canvas</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="mix web" href="img/DSGN1Storyboard.png" title="MTS bus redesign, Storyboard">
+            <div class="portfolio-wrapper">
+              <img src="img/MTSbus.png" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">The Design of Everyday Things, 2016</a>
+                  <span class="text-category">Product Design</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="mix web" href="img/Fizzle_storyboard.png" title="Fizzle: Storyboard">
+            <div class="portfolio-wrapper">
+              <img src="img/Fizzle.png" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Usability & Information Architecture, 2016</a>
+                  <span class="text-category">Storyboarding</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="mix identity" href="img/Summit.png" title="2nd Annual Behavioral Science and Marketing Summit, Sponsorship Kit">
+            <div class="portfolio-wrapper">
+              <img src="img/Summit_logo.png" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Take Her Back, 2017</a>
+                  <span class="text-category">Sponsorship Kit</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+            
+
+         
+          <div class="mix web" href="img/empathy_map.png" title="Life Skills Minigame: Empathy Map">
+            <div class="portfolio-wrapper">
+              <img src="img/empathy_map.png" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Design for Development, 2017</a>
+                  <span class="text-category">Empathy Map</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </section> 
+
+    <!-- Testomonials Section -->
+    <!--<section class="page-section testimonials bg-light">
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="testimonials-carousel">
+              <!-- Testimonial Item 1 -->
+              <!--<div class="item mb-4">
+                <p class="lead">"Working with Vitality was both a valuable and rewarding experience."</p>
+                <hr class="colored">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
+                <div class="testimonial-img">
+                  <img class="rounded-circle img-fluid" src="img/agency/testimonials/1.jpg" alt="">
+                </div>
+                <div class="testimonial-author">
+                  <span class="name">Jim Walker</span>
+                  <p class="small">CEO of Company Name</p>
+                  <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- Testimonial Item 2 -->
+              <!--<div class="item mb-4">
+                <p class="lead">"Vitality is a well coded, well documented, and easy to use theme!"</p>
+                <hr class="colored">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem amet rem minus dolorum, facere in soluta explicabo, unde eveniet illo vel, nemo nostrum atque nesciunt facilis quaerat quasi reprehenderit dicta.</p>
+                <div class="testimonial-img">
+                  <img class="rounded-circle img-fluid" src="img/agency/testimonials/2.jpg" alt="">
+                </div>
+                <div class="testimonial-author">
+                  <span class="name">Ashley Creadle</span>
+                  <p class="small">Creative Director of Company Name</p>
+                  <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+
+
+
+    <!-- Contact Section -->
+    <section class="page-section" id="contact">
+      <div class="container wow fadeIn">
+        <div class="text-center">
+          <h2>Want to have some tea with me? Contact me!</h2>
+          <hr class="colored">
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-8 mx-auto">
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="row control-group">
+                <div class="form-group col-12 floating-label-form-group controls">
+                  <label>Name</label>
+                  <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="row control-group">
+                <div class="form-group col-12 floating-label-form-group controls">
+                  <label>Email Address</label>
+                  <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="row control-group">
+                <div class="form-group col-12 floating-label-form-group controls">
+                  <label>Phone Number</label>
+                  <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="row control-group">
+                <div class="form-group col-12 floating-label-form-group controls">
+                  <label>Message</label>
+                  <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="row">
+                <div class="form-group col-12">
+                  <button type="submit" class="btn btn-secondary">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer" style="background-image: url('img/agency/backgrounds/bg-footer.jpg')">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-4 footer-contact-details">
+            <h4>
+              <i class="fa fa-phone"></i>
+              Call</h4>
+            <p>858-228-7240</p>
+          </div>
+          <div class="col-md-4 footer-contact-details">
+            <h4>
+              <i class="fa fa-map-marker"></i>
+              Visit</h4>
+            <p>Gilman Dr.9450,San Diego,CA</p>
+          </div>
+          <div class="col-md-4 footer-contact-details">
+            <h4>
+              <i class="fa fa-envelope"></i>
+              Email</h4>
+            <p>
+              <a href="mailto:skapil@ucsd.edu">yil479@ucsd.edu</a>
+            </p>
+          </div>
+        </div>
+        <div class="row footer-social">
+          <div class="col-lg-12">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/yinhe.lu.1">
+                  <i class="fa fa-facebook fa-fw fa-2x"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/yil479">
+                  <i class="fa fa-github fa-fw fa-2x"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/yinhe-lu-5b220713b/">
+                  <i class="fa fa-linkedin fa-fw fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="copyright">&copy; Luis Lu 2018</p>
+      </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+      
+      <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('img/musaic-bc.png');">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="mx-auto">
+                  <h2>MUSAIC</h2>
+                    <div class="col-lg-8 mx-auto">
+                  <ul class="list-inline item-details">
+                      <li>Class:
+                      <strong>COGS121, UC San Diego</strong>
+                    </li>
+                    <li>Date:
+                      <strong>2018/04-2018/06</strong>
+                    </li>
+                    <li>Role:
+                      <strong>Product Design/Backend developer</strong>
+                    </li>
+                  </ul>
+                  
+                </div>
+                  <hr class="colored">
+                    <div class="row">
+                    <div class="col-sm-6 text-left">
+                        <br>
+                        <br>
+                    <h3>Summary</h3>
+                  <p>Musaic is a conceptual music app that expands upon the friend's sidebar on Spotify. It runs with the idea that people want to know what their friends are listening to. People would be able to form communities and see statistics on their friends like "Most Played Song", "Most Played Artist", and etc. This helps people get a more diverse range of music into their libraries.</p>
+                    <br>
+                        <h3>Solution</h3>
+                    <p>My team and I used to Spotify API to make the app come to life. We pulled all the user data based on what information was available, including top artists and top songs. From here, we pulled the thirty second previews as well so that users can click on each song and got their respective album covers as well. We also integrated the ability to add your friends' songs to your own library on Spotify.</p>
+                    </div>
+                    <div class="col-sm-6 text-left">
+                    <video width="580" height="480" controls>
+                    <source src="img/Musaic_Demo.mp4" type="video/mp4">
+                    </video>
+                    </div>
+                    </div>
+                    <br>
+                   <img src="img/Storyboard2.png" class="img-fluid" style="width:58em; height:33em" alt="">
+                  
+                </div>
+                <div class="mx-auto">
+                    <br>
+                    <br>
+                  <h3>Our prototype</h3>
+                    <br>
+                    <p>Our app aims to build a music sharing community in which users share their favorite songs to their friends by limiting users to showcasing one song at a time in order to emphasize that this song is supposed to be meaningful to them, and something that they want to share with others.</p>
+                    <div class="row">
+                        <div class="col-sm-6 text-center">
+                            <p>User profile page(showcased single and top artists)</p>
+                             <img src="img/V2_1.png" class="img-fluid" style="width:18em; height:33em" alt=""> 
+                          
+                           
+                        </div>
+                        <div class="col-sm-6 text-center">
+                            <p>Newsfeed page(show friend's activity in order of recency)</p>
+                            <img src="img/V2_3.png" class="img-fluid" style="width:18em; height:33em" alt=""> 
+                           
+                            
+                        </div>
+                    </div>
+                    <br>
+                  
+                    
+                    <br>
+                    
+                    <br>
+                    <br>
+                  <h3>Desktop view with Spotify login iteration</h3>
+                    <br>
+                     <img src="img/V2_5.png" class="img-fluid" style="width:58em; height:33em" alt="">
+                    <p>Final iteration of login screen: A logo has been added and the colors are more muted (because it clashes with the choices on the next screen). Information about the app is also included at the bottom.</p>
+                  
+                    <br>
+                    <img src="img/V2_6.png" class="img-fluid" style="width:58em; height:33em" alt="">
+                    <p> Final interation of home page: Color scheme and styling changed to be more muted so eyes will not strain, pulling data from Spotify, added previews for songs by clicking on them, direct to Spotify playlist feature, categories on top, friend searching moved to community page.</p>
+                    <br>
+                    <h3>Database (Google firebase)</h3>
+                     <br>
+                    <img src="img/V2_7.png" class="img-fluid" style="width:18em; height:25em; float: left; margin-left: 5em;" alt="">
+                    <p > Every time the user logs in, they should see their friends. To accomplish this, we used Firebase to host all the variables we pulled from Spotify. We would then pull from the database whenever the user logs back in and update what the user sees using Javascript.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="https://github.com/yil479/musaic" target= "_blank" class="btn btn-primary">Github link
+                     <i class="fa fa-long-arrow-right fa-fw"></i>
+                     </a>
+                      <br>
+                       <br>
+                    <br>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                
+                </div>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+      
+    <!-- Example Modal 1: Corresponds with Portfolio Carousel Item 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('img/SD_1.png')">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <h2>San Diego air pollution data analysis</h2>
+                  <hr class="colored">
+                  <p>The air quality is one of the major concerns of many industrialized countries.  Harmful or excessive amount of gasses, particulates or biological molecules will cause air pollution, which will then lead to diseases, allergies or even death to humans and living organisms. The air quality is going to be measured and communicated through the AQI(Air Quality Index). Different number and different color is corresponding to certain level of Air Pollution. From the data set (U.S Air Pollution Data Set) we have, we are trying to build the model by using PCA and Linear Regression.</p>
+                   <a href="https://docs.google.com/document/d/1CEngzBMYYd0VpunnBG1bNNMWdAg_5e3HN_c2WHuJon4/edit?usp=sharing" class="btn btn-primary">View full report
+                  <i class="fa fa-long-arrow-right fa-fw"></i>
+                </a>
+                <a href="https://docs.google.com/presentation/d/1GCF0a5800vAxiQ1ldHiGK7Dpe7JNGoradIjEAc6oW14/edit?usp=sharing" class="btn btn-primary">View our poster
+                  <i class="fa fa-long-arrow-right fa-fw"></i>
+                </a>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                  <div class="device-mockup macbook portrait black">
+                    <div class="device">
+                      <div class="screen">
+
+                        <!-- Modal Mockup Option 1: Single Image (Uncomment Below to Use) -->
+                        <!-- <img src="img/agency/portfolio/carousel/screen-1a.jpg" class="img-fluid" alt=""> -->
+
+                        <!-- Modal Mockup Option 2: Carousel (Example In Use Below) -->
+                        <div class="mockup-carousel">
+                          <div class="item">
+                            <img src="img/sdp1.png" class="img-fluid" alt="">
+                          </div>
+                          <div class="item">
+                            <img src="img/sdp2.png" class="img-fluid" alt="">
+                          </div>
+                          <div class="item">
+                            <img src="img/sdp3.png" class="img-fluid" alt="">
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                  <ul class="list-inline item-details">
+                    <li>Tools:
+                      <strong>MATLAB & R studio</strong>
+                    </li>
+                      <li>Class:
+                      <strong>Data modeling and analysis</strong>
+                    </li>
+                    <li>Date:
+                      <strong>June-July 2018</strong>
+                    </li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Example Modal 2: Corresponds with Portfolio Carousel Item 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('img/agency/portfolio/carousel/bg-2.jpg')">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                
+                <div class="col-lg-8 mx-auto">
+                  <div class="device-mockup macbook portrait black">
+                    <div class="device">
+                      <div class="screen">
+
+                        <!-- Modal Mockup Option 1: Single Image (Uncomment Below to Use) -->
+                        <!-- <img src="img/agency/portfolio/carousel/screen-2a.jpg" class="img-fluid" alt=""> -->
+
+                        <!-- Modal Mockup Option 2: Carousel (Example In Use Below) -->
+                        <div class="mockup-carousel">
+                          <div class="item">
+                            <img src="img/vshare.png" class="img-fluid" alt="">
+                          </div>
+                          <div class="item">
+                            <img src="img/vsharecontact.png" class="img-fluid" alt="">
+                          </div>
+                          
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                  <ul class="list-inline item-details">
+                   
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Example Modal 3: Corresponds with Portfolio Carousel Item 3 -->
+   
+
+    <!-- Example Modal 4: Corresponds with Portfolio Carousel Item 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('img/usa.png')">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <h2>Data Science Project: San Diego Traffic collision</h2>
+                  <hr class="colored">
+                    <p> Data science in practice</p>
+                    <p>From the poor amount of lighting in the neighborhood of La Jolla, to the narrow one way streets of Downtown SD, there are numerous concerns for drivers in San Diego to make it a safer place for drivers and pedestrians alike. Our final project revolves on the following question, "Are streets in San Diego with higher traffic volumes more dangerous?". We defined dangerous in two ways: number of accidents and number of injuries.</p>
+                    <p>To approach this issue, we examine a dataset that contains police reports of collisions that have happened in San Diego County over the past few years, and perform various analyses on these reported collisions. These police reports give details such as time and day of the incident, what street(s) the incident took place at, and a standardized description of the incident. We also wanted to see how related car accidents and injuries were to traffic volume, so we looked at the traffic counts dataset, which is a data set that contains the number of cars that drove through any particular street section on a given date.</p>
+
+                    </p>
+                    <a href="https://github.com/yil479/SD-Car-Accident-Analysis/blob/master/FinalProject.ipynb" target= "_blank" class="btn btn-primary">View Full project
+                     <i class="fa fa-long-arrow-right fa-fw"></i>
+                     </a>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                  <div class="device-mockup macbook portrait black">
+                    <div class="device">
+                      <div class="screen">
+
+                        <!-- Modal Mockup Option 1: Single Image (Example In Use Below) -->
+                        <!--<img src="img/agency/portfolio/carousel/screen-4.jpg" class="img-fluid" alt=""> -->
+
+                        <!-- Modal Mockup Option 2: Carousel (Uncomment Below to Use) -->
+                        <div class="mockup-carousel">
+                          <div class="item">
+                            <img src="img/SD3.png" class="img-fluid" alt="">
+                          </div>
+                          <div class="item">
+                            <img src="img/SD1.png" class="img-fluid" alt="">
+                          </div>
+                          <div class="item">
+                            <img src="img/SD4.png" class="img-fluid" alt="">
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                  <ul class="list-inline item-details">
+                    <li>Class:
+                      <strong>Data Science in Practice</strong>
+                    </li>
+                    <li>Motivation:
+                      <strong>Our project explored San Diego traffic collision data and statistical analysis on different types of accidents and their causal effects. This project wasn’t chosen by random:a UCSD student was killed in car accident near downtown San Diego. The goal of this project is to apply data science skill to solve real life problem especially for social benefit.</strong>
+                    </li>
+                    <li>Achievement:
+                      <strong>We presented our findings at the opening of the Halıcıoğlu data science institute.The findings also sparked interest from city of San Diego to collaborate on the project.</strong>
+                    </li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="vendor/owl-carousel/owl.carousel.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/vide/jquery.vide.min.js"></script>
+    <script src="vendor/mixitup/mixitup.min.js"></script>
+    <script src="vendor/wowjs/wow.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/contact_me.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+
+    <!-- Custom scripts for this theme -->
+    <script src="js/vitality.js"></script>
+    <script src="js/mixitup-config.js"></script>
+      
+  </body>
+
 </html>
